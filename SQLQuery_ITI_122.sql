@@ -150,7 +150,6 @@ BEGIN
     WHERE
         S.st_id = @StudentID;
 END
-create	Unique Clistered index View_StudentCourses_index on dbo.View_StudentCourses;
 SELECT * FROM Department;
 SELECT * FROM Instructor;
 SELECT * FROM Courses;
